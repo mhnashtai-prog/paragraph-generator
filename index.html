@@ -1,1 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>INTUITY — Intuitive & Immersive Learning</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="header-inner">
+        <div class="logo">IN</div>
+        <div class="brand">
+          <h1>INTUITY</h1>
+          <p class="tag">Intuitive &amp; Immersive Learning</p>
+          <p class="author">Majid Nashtai</p>
+        </div>
+
+        <div class="spacer"></div>
+
+        <!-- compact top-right tiny status -->
+        <div class="status">
+          <div class="small">PARAGRAPH GENERATOR</div>
+          <div class="tiny">Adaptive • B2 • C1 • C2</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTROL BAR (single horizontal row) -->
+    <nav class="control-bar" role="navigation" aria-label="Main controls">
+      <div class="levels" role="tablist" aria-label="Select level">
+        <button class="level-btn active" data-level="B2" aria-pressed="true">B2</button>
+        <button class="level-btn" data-level="C1" aria-pressed="false">C1</button>
+        <button class="level-btn" data-level="C2" aria-pressed="false">C2</button>
+      </div>
+
+      <div class="control-spacer"></div>
+
+      <div class="actions">
+        <button id="samplesBtn" class="control-btn">samples</button>
+        <button id="usefulBtn" class="control-btn">useful expressions</button>
+        <button id="writeBtn" class="control-btn primary">write</button>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main id="content" class="content">
+      <section class="welcome">
+        <h2>Welcome to INTUITY</h2>
+        <p class="lead">Choose a level, explore Cambridge-aligned topics and expressions, then open the focused writer.</p>
+
+        <div class="quick-hint">
+          <span class="hint-pill">B2: Guided scaffolds</span>
+          <span class="hint-pill">C1: Advanced connectors</span>
+          <span class="hint-pill">C2: Participles & thesis forms</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- POPUP / MODAL SHELL -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-panel" role="document" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+        <div id="modalInner" class="modal-inner">
+          <!-- content injected by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- WRITER FULLSCREEN (hidden until Write pressed) -->
+    <div id="writer" class="writer-screen hidden" role="application" aria-hidden="true">
+      <div class="writer-card">
+        <header class="writer-header">
+          <div>
+            <div class="writer-title">PARAGRAPH GENERATOR</div>
+            <div class="writer-sub">Level: <span id="writerLevel">B2</span></div>
+          </div>
+          <div class="writer-controls">
+            <button id="writerBack" class="btn ghost">Back</button>
+            <button id="writerSave" class="btn primary">Save</button>
+          </div>
+        </header>
+
+        <div class="writer-body">
+          <div class="writer-canvas">
+            <textarea id="writerArea" placeholder="Start shaping your paragraph — minimal, focused mode..." spellcheck="true"></textarea>
+          </div>
+
+          <aside class="writer-side">
+            <div class="side-title">Suggestions</div>
+            <div id="suggestions" class="suggestions">
+              <!-- suggestions / phrases will be injected here after JSON integration -->
+              <div class="s-ghost">Useful expressions will appear here.</div>
+            </div>
+            <div class="side-actions">
+              <button id="insertSelected" class="btn ghost">Insert Selected</button>
+              <button id="clearWriter" class="btn ghost">Clear</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
