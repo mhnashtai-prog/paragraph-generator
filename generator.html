@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INTUITY | Paragraph Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="paragraph-mode">
+
+  <!-- Header -->
+  <header class="paragraph-header">
+    <div class="brand-mini">
+      <h1>INTUITY</h1>
+      <span>Paragraph Generator</span>
+    </div>
+    <div class="controls">
+      <button id="backBtn" class="control-btn">← Back</button>
+      <span id="levelLabel" class="level-label"></span>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <main class="generator-container">
+    <section class="suggestions-panel">
+      <h2>Suggested Expressions</h2>
+      <div id="suggestionsList" class="suggestions-list">
+        <p class="placeholder">Select your level in the main menu to load expressions.</p>
+      </div>
+    </section>
+
+    <section class="writing-panel">
+      <h2>Your Paragraph</h2>
+      <textarea id="writingArea" placeholder="Start writing your paragraph here..." spellcheck="true"></textarea>
+      <div class="actions">
+        <button id="saveBtn" class="control-btn">💾 Save</button>
+        <button id="clearBtn" class="control-btn">🧹 Clear</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // --- GET LEVEL FROM URL ---
+    const params = new URLSearchParams(window.location.search);
+    const level = params.get("level") || "B2";
+    document.getElementById("levelLabel").textContent = `Level: ${level}`;
+
+    // --- LOAD EXPRESSIONS JSON ---
+    const suggestionsList = document.getElementById("suggestionsList");
+
+    async function loadExpressions(level) {
+      try {
+        const response = await fetch(\`samples/\${level}-level.json\`);
+        const data = await response.json();
+
+        // Build the suggestions display
+        suggestionsList.innerHTML = "";
+        for (const [section, expressions] of Object.entries(data)) {
+          const sectionTitle = document.createElement("h3");
+          sectionTitle.textContent = section.toUpperCase();
+          suggestionsList.appendChild(sectionTitle);
+
+          Object.entries(expressions).forEach(([key, items]) => {
+            const subheading = document.createElement("h4");
+            subheading.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+            suggestionsList.appendChild(subheading);
+
+            const list = document.createElement("ul");
+            items.forEach(expr => {
+              const li = document.createElement("li");
+              li.textContent = expr;
+              li.addEventListener("click", () => insertExpression(expr));
+              list.appendChild(li);
+            });
+            suggestionsList.appendChild(list);
+          });
+        }
+
+      } catch (error) {
+        suggestionsList.innerHTML = "<p style='color:#b35c44'>Failed to load expressions.</p>";
+      }
+    }
+
+    // --- INSERT EXPRESSION INTO TEXTAREA ---
+    const writingArea = document.getElementById("writingArea");
+    function insertExpression(text) {
+      const cursorPos = writingArea.selectionStart;
+      const before = writingArea.value.substring(0, cursorPos);
+      const after = writingArea.value.substring(cursorPos);
+      writingArea.value = before + text + " " + after;
+      writingArea.focus();
+    }
+
+    // --- BUTTON ACTIONS ---
+    document.getElementById("backBtn").addEventListener("click", () => {
+      window.location.href = "index.html";
+    });
+
+    document.getElementById("clearBtn").addEventListener("click", () => {
+      writingArea.value = "";
+    });
+
+    document.getElementById("saveBtn").addEventListener("click", () => {
+      const blob = new Blob([writingArea.value], { type: "text/plain" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = \`INTUITY_\${level}_Paragraph.txt\`;
+      link.click();
+    });
+
+    // Load data on page open
+    loadExpressions(level);
+  </script>
+
+</body>
+</html>
 
