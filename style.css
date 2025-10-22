@@ -1,1 +1,105 @@
+/* INTUITY — base layout + style (black + french beige + brick + grey) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600&display=swap');
+
+:root{
+  --bg:#0B0B0B;
+  --beige:#C9A961;
+  --beige-soft: rgba(201,169,97,0.12);
+  --brick:#B65F36;
+  --muted:#BFC3B8;
+  --panel: rgba(18,18,18,0.6);
+  --glass-border: rgba(255,255,255,0.03);
+  --radius:14px;
+  --ease:cubic-bezier(.2,.9,.3,1);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--muted);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
+a{color:inherit}
+
+/* HEADER */
+.header{padding:18px 28px 8px}
+.header-inner{display:flex;align-items:center;gap:14px;max-width:1100px;margin:0 auto}
+.logo{
+  width:68px;height:68px;border-radius:12px;background:radial-gradient(circle at 30% 25%, rgba(201,169,97,0.12), transparent);display:flex;align-items:center;justify-content:center;font-family:"Playfair Display",serif;color:var(--beige);font-weight:700;font-size:20px;border:1px solid rgba(201,169,97,0.06)
+}
+.brand h1{margin:0;font-family:"Playfair Display",serif;color:var(--beige);font-size:22px;letter-spacing:0.6px}
+.brand .tag{margin:2px 0 0 0;color:var(--muted);font-size:13px}
+.brand .author{margin:6px 0 0 0;color:var(--brick);font-size:12px;font-style:italic}
+
+/* tiny right status */
+.spacer{flex:1}
+.status{text-align:right}
+.status .small{font-size:12px;color:var(--muted)}
+.status .tiny{font-size:11px;color:rgba(191,195,184,0.7)}
+
+/* CONTROL BAR */
+.control-bar{
+  display:flex;align-items:center;gap:14px;max-width:1100px;margin:14px auto;padding:10px 14px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.002));border:1px solid var(--glass-border)
+}
+.levels{display:flex;gap:8px}
+.level-btn{
+  background:transparent;border:1px solid rgba(255,255,255,0.03);color:var(--muted);padding:8px 12px;border-radius:10px;cursor:pointer;font-weight:600;transition:all .18s var(--ease)
+}
+.level-btn.active, .level-btn:hover{
+  background:var(--beige);color:var(--bg);box-shadow:0 8px 26px rgba(201,169,97,0.08)
+}
+
+/* spacer stretches */
+.control-spacer{flex:1}
+
+/* actions */
+.actions{display:flex;gap:10px;align-items:center}
+.control-btn{
+  background:transparent;border:1px solid rgba(255,255,255,0.03);padding:8px 12px;border-radius:10px;cursor:pointer;color:var(--muted);font-weight:700;transition:all .18s var(--ease)
+}
+.control-btn:hover{box-shadow:0 8px 30px rgba(201,169,97,0.06)}
+.control-btn.primary{background:linear-gradient(90deg,var(--beige), #9c8743);color:var(--bg);box-shadow:0 18px 50px rgba(201,169,97,0.14)}
+
+/* MAIN CONTENT */
+.content{max-width:1100px;margin:34px auto;padding:0 18px;text-align:center}
+.welcome h2{font-family:"Playfair Display",serif;color:var(--beige);margin:0 0 8px 0;font-size:28px}
+.welcome .lead{color:var(--muted);margin-top:8px}
+.quick-hint{margin-top:18px;display:flex;gap:8px;justify-content:center}
+.hint-pill{background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:999px;color:var(--muted);font-weight:600}
+
+/* MODAL / POPUP */
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:2000}
+.modal.hidden{display:none}
+.modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.6)}
+.modal-panel{position:relative;width:94%;max-width:820px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.006));border-radius:14px;padding:18px;border:1px solid var(--glass-border);box-shadow:0 30px 80px rgba(0,0,0,0.7)}
+.modal-close{position:absolute;right:12px;top:10px;border:none;background:transparent;color:var(--beige);font-size:22px;cursor:pointer}
+.modal-inner{max-height:64vh;overflow:auto;color:var(--muted)}
+
+/* WRITER FULL SCREEN */
+.writer-screen{position:fixed;inset:0;background:linear-gradient(180deg,var(--bg), #0f0f10);display:flex;align-items:center;justify-content:center;padding:28px;z-index:2500}
+.writer-screen.hidden{display:none}
+.writer-card{width:100%;max-width:1060px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.002));padding:20px;border-radius:16px;border:1px solid var(--glass-border);box-shadow:0 40px 120px rgba(0,0,0,0.75);display:flex;flex-direction:column;gap:12px}
+.writer-header{display:flex;justify-content:space-between;align-items:center}
+.writer-title{font-family:"Playfair Display",serif;color:var(--beige);font-size:18px}
+.writer-sub{font-size:13px;color:var(--muted)}
+.writer-controls{display:flex;gap:10px}
+.btn{padding:8px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:700}
+.btn.ghost{background:transparent;color:var(--muted);border:1px solid rgba(255,255,255,0.03)}
+.btn.primary{background:linear-gradient(90deg,var(--beige), #9c8743);color:var(--bg);box-shadow:0 10px 30px rgba(201,169,97,0.14)}
+
+.writer-body{display:flex;gap:18px}
+.writer-canvas{flex:1}
+textarea#writerArea{width:100%;min-height:300px;border-radius:12px;padding:18px;background:#070707;color:var(--muted);border:1px solid rgba(255,255,255,0.02);font-size:16px;line-height:1.55;box-shadow:inset 2px 2px 10px rgba(0,0,0,0.7)}
+.writer-side{width:320px;min-width:240px;display:flex;flex-direction:column;gap:10px}
+.side-title{font-size:13px;color:var(--muted)}
+.suggestions{background:var(--panel);padding:10px;border-radius:10px;max-height:380px;overflow:auto}
+.s-ghost{color:rgba(191,195,184,0.5);padding:18px;text-align:center}
+
+/* phrase item */
+.phrase-item{padding:9px 12px;border-radius:10px;background:#0b0b0b;border:1px solid rgba(255,255,255,0.02);margin-bottom:8px;cursor:pointer;color:var(--muted)}
+.phrase-item:hover{box-shadow:0 10px 30px rgba(201,169,97,0.06);transform:translateY(-2px);transition:all .16s var(--ease)}
+.phrase-item.active{outline:2px solid rgba(201,169,97,0.12);background:linear-gradient(180deg, rgba(201,169,97,0.03), transparent)}
+
+@media (max-width:920px){
+  .writer-body{flex-direction:column}
+  .writer-side{width:100%}
+  .control-bar{padding:10px}
+  .header-inner{padding:12px}
+}
 
