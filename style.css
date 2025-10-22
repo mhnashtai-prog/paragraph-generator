@@ -102,4 +102,128 @@ textarea#writerArea{width:100%;min-height:300px;border-radius:12px;padding:18px;
   .control-bar{padding:10px}
   .header-inner{padding:12px}
 }
+/* === Paragraph Generator === */
+body.paragraph-mode {
+  background: var(--bg-dark);
+  color: var(--grey);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  padding: 0.6rem 1.2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.brand-mini h1 {
+  color: var(--beige);
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+.brand-mini span {
+  font-size: 0.8rem;
+  color: var(--brick);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.level-label {
+  color: var(--beige);
+  font-weight: 600;
+}
+
+.control-btn {
+  background: transparent;
+  border: 1px solid var(--beige);
+  color: var(--beige);
+  border-radius: 12px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-btn:hover {
+  background: var(--beige);
+  color: var(--bg-dark);
+}
+
+.generator-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  flex: 1;
+  overflow: hidden;
+}
+
+.suggestions-panel {
+  background: rgba(255,255,255,0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  overflow-y: auto;
+}
+
+.suggestions-panel h2 {
+  color: var(--beige);
+  margin-top: 0;
+}
+
+.suggestions-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions-panel li {
+  margin: 0.3rem 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.suggestions-panel li:hover {
+  color: var(--beige);
+}
+
+.writing-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.writing-panel h2 {
+  color: var(--beige);
+  margin-top: 0;
+}
+
+#writingArea {
+  flex: 1;
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  color: var(--grey);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  resize: none;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
 
