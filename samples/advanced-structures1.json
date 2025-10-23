@@ -1,0 +1,82 @@
+{
+  "AdvancedStructures": [
+    {
+      "category": "Environment & Sustainability",
+      "examples": [
+        "Having been neglected for decades, rural infrastructure is now collapsing, forcing thousands to migrate towards urban centres.",
+        "Faced with mounting evidence of climate change, even sceptics are beginning to reconsider their stance.",
+        "Acknowledged as a major cause of biodiversity loss, deforestation continues to accelerate in many regions.",
+        "Motivated by short-term profit, corporations continue to exploit natural resources, jeopardising long-term sustainability.",
+        "Driven by consumer demand, global supply chains have expanded unsustainably, amplifying environmental degradation.",
+        "Endorsed by scientific consensus, renewable energy offers a tangible path towards global sustainability.",
+        "Outpaced by rapid urban expansion, governments are struggling to provide adequate housing and infrastructure.",
+        "Having relied heavily on fossil fuels, industrial nations now face a difficult transition towards cleaner energy."
+      ]
+    },
+    {
+      "category": "Technology & Innovation",
+      "examples": [
+        "Unchecked technological expansion may result in unprecedented ethical dilemmas, challenging our very definition of human identity.",
+        "Growing at an unprecedented rate, artificial intelligence is redefining what it means to be ‘intelligent’ in a human sense.",
+        "Uncontrolled by international regulation, the use of artificial intelligence in warfare poses moral and existential threats.",
+        "Being constantly monitored by algorithms, online behaviour is increasingly predictable — and thus profitable.",
+        "Having been underestimated for decades, the influence of social media on political outcomes is now undeniable.",
+        "Failing to regulate social media responsibly can lead to misinformation spreading uncontrollably within hours.",
+        "Surrounded by endless streams of information, citizens struggle to distinguish truth from manipulation.",
+        "Influenced by decades of media sensationalism, public perception often diverges sharply from reality."
+      ]
+    },
+    {
+      "category": "Society & Culture",
+      "examples": [
+        "Deeply polarized political debates often deteriorate into hostility, alienating citizens from the democratic process.",
+        "Desperate and disillusioned, young graduates are turning to foreign opportunities, reshaping the national labour market.",
+        "Having been shaped by centuries of inequality, contemporary social structures still reflect deep-rooted biases.",
+        "Driven by the desire for status, many consumers prioritise image over sustainability in their purchasing choices.",
+        "Haunted by the legacy of colonialism, former empires still struggle with questions of identity and justice.",
+        "Exhausted by years of conflict, local populations are demanding peace and reconstruction rather than political rhetoric.",
+        "Deeply embedded in cultural identity, language remains one of the most powerful tools of social cohesion.",
+        "Confined within algorithmic echo chambers, online users are becoming more polarised in their opinions."
+      ]
+    },
+    {
+      "category": "Politics & Globalisation",
+      "examples": [
+        "While global trade remains an engine of growth, it also intensifies competition, pressuring local industries to reduce costs at any price.",
+        "Despite being hailed as a solution to poverty, globalisation has often deepened economic disparities between nations.",
+        "Faced with growing discontent, governments have begun to reconsider the social contract that underpins democracy.",
+        "Having underestimated the complexity of climate policy, governments are now struggling to meet international commitments.",
+        "Confronted with the realities of automation, policymakers are rethinking the very concept of employment.",
+        "Having ignored early warnings, many nations are now paying the price for inadequate pandemic preparedness.",
+        "Rising at an alarming rate, the cost of living has become one of the most pressing political issues of our time.",
+        "Once dismissed as a passing trend, sustainable living has now become a defining cultural movement."
+      ]
+    },
+    {
+      "category": "Education & Work",
+      "examples": [
+        "Increasingly questioned by experts, traditional forms of education appear ill-suited to prepare students for a digital economy.",
+        "Having failed to adapt to changing consumer expectations, once-dominant companies are now losing relevance.",
+        "Freed from geographical limitations, remote work has revolutionised the modern workplace, reshaping global employment patterns.",
+        "Having witnessed the effects of automation first-hand, workers are increasingly anxious about the future of employment.",
+        "Guided by the pursuit of progress, humanity often underestimates the importance of ethical restraint.",
+        "Driven by curiosity and seeking significance, many individuals embrace risky innovations, transforming entire cultural landscapes.",
+        "Having been marginalised for generations, minority voices are finally gaining recognition and influence.",
+        "Recognised globally for its innovation, the tech industry nevertheless faces scrutiny over ethics and privacy."
+      ]
+    },
+    {
+      "category": "Health & Wellbeing",
+      "examples": [
+        "Eroded by decades of underfunding, the public healthcare system is nearing a point of irreversible decline.",
+        "Having ignored early signs of mental distress, societies are now witnessing a rise in anxiety and depression among young people.",
+        "Being constantly exposed to idealised images, young people are developing unrealistic expectations about success and beauty.",
+        "Exposed to constant online pressure, adolescents find it increasingly difficult to maintain emotional balance.",
+        "Confronted with the long-term consequences of unhealthy lifestyles, governments are promoting preventive health policies.",
+        "Having been forced to rethink priorities during the pandemic, individuals are re-evaluating the role of work-life balance.",
+        "Driven by the pursuit of productivity, many people sacrifice rest and creativity, undermining their own wellbeing.",
+        "Influenced by social comparison, individuals often measure happiness by material rather than emotional standards."
+      ]
+    }
+  ]
+}
