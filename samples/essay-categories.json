@@ -1,1 +1,33 @@
+{
+  "B2": [
+    {
+      "name": "For & Against",
+      "example": "There are both advantages and disadvantages to working from home. While some appreciate the flexibility, others find it hard to separate work from personal life."
+    },
+    {
+      "name": "Opinion Essay",
+      "example": "In my view, social media has transformed how we communicate, but it has also made authentic human interaction more difficult."
+    }
+  ],
+  "C1": [
+    {
+      "name": "Cause & Effect",
+      "example": "As automation becomes more common, unemployment may rise, leading to new social and economic challenges."
+    },
+    {
+      "name": "Speculation Essay",
+      "example": "It might be argued that artificial intelligence will reshape not only industries but also redefine human creativity itself."
+    }
+  ],
+  "C2": [
+    {
+      "name": "Critical Discussion",
+      "example": "While globalization has spurred unprecedented progress, it has also deepened inequalities, eroding cultural diversity in the process."
+    },
+    {
+      "name": "Balanced Evaluation",
+      "example": "Although digital surveillance enhances national security, it simultaneously threatens individual privacy — a paradox modern societies must confront."
+    }
+  ]
+}
 
