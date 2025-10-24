@@ -1,0 +1,69 @@
+{
+  "level": "B2",
+  "description": "Upper-intermediate academic structures using basic participles, adjectives, and adverbs with cause and effect patterns.",
+  "structures": {
+    "adjective_focus": [
+      "The problem is becoming increasingly serious in many parts of the world.",
+      "It is extremely important to find solutions to this growing issue.",
+      "This topic is highly relevant to modern society.",
+      "The results were surprisingly positive considering the circumstances.",
+      "It is essential to understand how this situation affects people’s lives."
+    ],
+    "adverb_focus": [
+      "The government reacted quickly to the situation.",
+      "Many people now think differently about this issue.",
+      "Technology has developed rapidly in the past few years.",
+      "Young people are working hard to achieve their goals.",
+      "Citizens responded positively to the new proposal."
+    ],
+    "participle_of_result": [
+      "The new system was introduced, creating a fairer process for everyone.",
+      "The campaign was successful, raising awareness across the country.",
+      "Pollution has increased, causing major health problems in urban areas.",
+      "Tourism has grown, providing new opportunities for employment.",
+      "Public concern has risen, leading to stronger environmental laws."
+    ],
+    "combined_adjective_gerund_consequence": [
+      "Tired of waiting for change, many young people have decided to take action.",
+      "Encouraged by better conditions, employees are more motivated to work.",
+      "Frustrated with political inaction, voters are losing trust in their leaders.",
+      "Satisfied with the improvements, residents supported the new policy.",
+      "Worried about rising prices, families are changing their spending habits."
+    ],
+    "causal_participle_phrase": [
+      "Having studied the topic in depth, experts now agree on the main causes.",
+      "Having realised the risks, many consumers are switching to sustainable products.",
+      "Having been informed about the dangers, the community acted responsibly.",
+      "Having worked together for years, the team developed strong trust.",
+      "Having faced similar problems before, the government was better prepared."
+    ],
+    "present_participle_consequence": [
+      "Ignoring these warnings can lead to serious consequences.",
+      "Failing to take responsibility damages public confidence.",
+      "Relying too heavily on technology reduces personal interaction.",
+      "Spending too much time online may affect mental health.",
+      "Taking part in volunteering projects helps improve community spirit."
+    ],
+    "gerund_ongoing_consequence": [
+      "Not recycling waste contributes to long-term environmental damage.",
+      "Avoiding exercise leads to serious health issues over time.",
+      "Failing to plan carefully often results in financial problems.",
+      "Driving carelessly puts everyone in danger.",
+      "Neglecting education prevents young people from reaching their potential."
+    ],
+    "balance_and_consequence": [
+      "While the internet offers many benefits, it also poses new challenges.",
+      "Although cities provide opportunities, they can also create social isolation.",
+      "While education improves lives, it may not guarantee equal opportunities.",
+      "Although tourism brings money, it can damage local traditions.",
+      "While technology simplifies work, it sometimes reduces creativity."
+    ],
+    "double_participle_expansion": [
+      "Motivated by success and inspired by others, young people are starting new projects.",
+      "Influenced by media and seeking recognition, teenagers often follow trends.",
+      "Shocked by the results and determined to improve, the team worked harder.",
+      "Encouraged by progress and supported by family, students achieved better grades.",
+      "Driven by ambition and seeking stability, many people move abroad for work."
+    ]
+  }
+}
