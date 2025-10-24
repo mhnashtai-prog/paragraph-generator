@@ -1,1 +1,84 @@
+{
+  "level": "B2",
+  "categories": {
+    "introductions": {
+      "contrast": [
+        "Although ..., many people still believe that ...",
+        "Even though ..., it can be argued that ...",
+        "Despite the fact that ..., there is still debate over ...",
+        "In spite of ..., some argue that ..."
+      ],
+      "general_openers": [
+        "Nowadays, there is a growing concern that ...",
+        "We can all accept the fact that ...",
+        "It is generally assumed that ...",
+        "It is widely recognized that ...",
+        "Over the past few years, there has been an increase in ..."
+      ],
+      "evidence_or_reason": [
+        "Since ..., people have started to ...",
+        "As ..., it has become clear that ...",
+        "Given that ..., many experts now suggest ...",
+        "Due to ..., society has begun to ..."
+      ],
+      "purpose": [
+        "In order to understand ..., it is necessary to examine ...",
+        "With the aim of improving ..., this essay will consider ...",
+        "So as to clarify ..., it is worth discussing ..."
+      ]
+    },
+    "body": {
+      "for_and_against": [
+        "It is vital to analyse the benefits and drawbacks of ...",
+        "Therefore, it is important to consider both advantages and disadvantages.",
+        "Consequently, it is essential to study the arguments for and against ...",
+        "It is crucial to evaluate the pros and cons of ..."
+      ],
+      "problems_and_solutions": [
+        "We should find ways in which we can address this problem.",
+        "Hence, tackling this issue remains a priority.",
+        "Consequently, steps must be taken to deal with this situation.",
+        "How can we effectively solve this problem?"
+      ],
+      "cause_and_effect": [
+        "It is important to highlight the causes of ...",
+        "Therefore, it is imperative to discuss the impact of ...",
+        "What are the reasons behind ...?",
+        "Consequently, this has led to ..."
+      ],
+      "speculation": [
+        "How likely is it that ...?",
+        "It is quite possible that ...",
+        "There is a chance that ... will ...",
+        "To what extent is it probable that ...?"
+      ],
+      "opinion": [
+        "It is vital to discuss whether we should ...",
+        "Consequently, it is important to express one’s opinion on ...",
+        "I would like to present my views regarding ...",
+        "In my view, ..."
+      ]
+    },
+    "conclusion": {
+      "summary": [
+        "In conclusion, it is clear that ...",
+        "To sum up, we can say that ...",
+        "All things considered, it seems that ...",
+        "Overall, it can be concluded that ..."
+      ],
+      "future_impact": [
+        "Looking ahead, it is likely that ...",
+        "In the future, we may see ...",
+        "If this trend continues, ... will certainly ...",
+        "This suggests that future generations will ..."
+      ],
+      "final_opinion": [
+        "From my perspective, ...",
+        "Therefore, I strongly believe that ...",
+        "Ultimately, it depends on ...",
+        "In the end, one must accept that ..."
+      ]
+    }
+  }
+}
 
