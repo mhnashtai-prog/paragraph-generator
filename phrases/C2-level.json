@@ -1,1 +1,124 @@
-
+{
+  "level": "C2",
+  "categories": {
+    "opinion": [
+      "It is my contention that ...",
+      "One might reasonably posit that ...",
+      "The evidence would seem to suggest that ...",
+      "It stands to reason that ...",
+      "A compelling case can be made for the view that ..."
+    ],
+    "agreement": [
+      "This argument is fundamentally sound.",
+      "Such reasoning warrants serious consideration.",
+      "The logic underpinning this position is irrefutable.",
+      "This interpretation appears both nuanced and well-founded.",
+      "Few would dispute the validity of this assertion."
+    ],
+    "disagreement": [
+      "This line of reasoning is fundamentally flawed.",
+      "Such an interpretation oversimplifies a complex phenomenon.",
+      "This assertion rests on questionable assumptions.",
+      "The argument fails to withstand rigorous scrutiny.",
+      "This perspective neglects crucial contextual factors."
+    ],
+    "partial_agreement": [
+      "While this argument possesses certain merits, it remains incomplete.",
+      "Though superficially persuasive, this view warrants qualification.",
+      "This position holds true insofar as ..., yet it overlooks ...",
+      "Granted, there is validity to this claim; nonetheless, ...",
+      "One must acknowledge the partial truth in this assertion, albeit with significant reservations."
+    ],
+    "generalisation": [
+      "It is axiomatic that ...",
+      "Conventional wisdom holds that ...",
+      "A consensus has emerged among scholars that ...",
+      "It has long been recognized that ...",
+      "The prevailing orthodoxy suggests that ..."
+    ],
+    "cause": [
+      "This phenomenon can be attributed to ...",
+      "The root cause lies in ...",
+      "This situation stems from ...",
+      "The underlying impetus for this development is ...",
+      "Such outcomes are invariably precipitated by ..."
+    ],
+    "effect": [
+      "This inevitably engenders ...",
+      "The ramifications of this are far-reaching.",
+      "Such developments precipitate ...",
+      "This gives rise to profound implications for ...",
+      "The corollary of this trend is ..."
+    ],
+    "referencing": [
+      "Scholarly discourse increasingly acknowledges that ...",
+      "Empirical investigations have consistently demonstrated that ...",
+      "As substantiated by rigorous research, ...",
+      "Contemporary scholarship converges on the view that ...",
+      "Meta-analyses reveal that ..."
+    ],
+    "facts": [
+      "It is incontrovertible that ...",
+      "The empirical evidence unequivocally demonstrates that ...",
+      "Historical precedent establishes that ...",
+      "Quantitative data corroborate the assertion that ...",
+      "It is beyond dispute that ..."
+    ],
+    "problems": [
+      "A fundamental challenge confronting contemporary society concerns ...",
+      "This phenomenon poses an existential threat to ...",
+      "The gravity of this predicament cannot be overstated.",
+      "Society grapples with the intractable problem of ...",
+      "This represents a systemic failure of ..."
+    ],
+    "solutions": [
+      "A multifaceted approach is warranted, encompassing ...",
+      "Addressing this requires nothing short of paradigmatic reform.",
+      "A viable resolution necessitates ...",
+      "The optimal strategy would involve a coordinated effort to ...",
+      "Sustainable progress hinges upon ..."
+    ],
+    "speculating": [
+      "It is not inconceivable that ...",
+      "One might venture to suggest that ...",
+      "The trajectory of current developments portends ...",
+      "Extrapolating from present trends, it seems plausible that ...",
+      "Should these patterns persist, one may reasonably anticipate that ..."
+    ],
+    "justifying": [
+      "This conclusion derives its legitimacy from ...",
+      "The rationale undergirding this position is ...",
+      "Such a stance finds validation in ...",
+      "This interpretation is corroborated by ...",
+      "The intellectual foundation for this claim rests upon ..."
+    ],
+    "adding": [
+      "Furthermore, it merits emphasis that ...",
+      "Equally pertinent is the observation that ...",
+      "In addition to these considerations, ...",
+      "A corollary point concerns ...",
+      "It is worth noting, moreover, that ..."
+    ],
+    "contrasting": [
+      "Conversely, ...",
+      "Notwithstanding these observations, ...",
+      "By way of contrast, ...",
+      "This stands in stark opposition to ...",
+      "Paradoxically, ..."
+    ],
+    "conceding": [
+      "Notwithstanding these objections, ...",
+      "While one must concede that ..., it remains true that ...",
+      "Though not without merit, this argument ...",
+      "Granted, there exists some validity to this claim; however, ...",
+      "Even allowing for these considerations, ..."
+    ],
+    "concluding": [
+      "In the final analysis, ...",
+      "To recapitulate, the preponderance of evidence suggests that ...",
+      "Synthesizing these various strands of argument, one may conclude that ...",
+      "The foregoing discussion compels the conclusion that ...",
+      "Upon reflection, it becomes apparent that ..."
+    ]
+  }
+}
