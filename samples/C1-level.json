@@ -1,147 +1,116 @@
 {
-  "level": "B2",
+  "level": "C1",
   "categories": {
     "introductions": {
-      "contrast": [
-        "Although many people claim that ..., others argue that ...",
-        "Even though ..., there are still reasons to believe that ...",
-        "Despite the fact that ..., some would suggest ...",
-        "In spite of growing awareness of ..., opinions remain divided.",
-        "While it is true that ..., the opposite can also be said."
+      "academic_context": [
+        "In recent decades, the issue of ... has become a major topic of academic debate.",
+        "The question of whether ... remains a contentious issue among experts.",
+        "There is a growing body of evidence suggesting that ...",
+        "Few topics have generated as much discussion as ...",
+        "The impact of ... on modern society continues to provoke strong opinions."
       ],
-      "general_openers": [
-        "Nowadays, there is increasing discussion about ...",
-        "These days, more and more people are concerned about ...",
-        "It is generally accepted that ... plays an important role in our lives.",
-        "It is widely recognized that ... has become a major issue.",
-        "There has been a growing recognition that ... affects our society.",
-        "In recent years, the topic of ... has attracted considerable attention.",
-        "Many people today believe that ... is one of the biggest challenges we face.",
-        "Few people would deny that ... has had a strong influence on modern life.",
-        "Over the past decade, there has been a significant rise in ...",
-        "It is a well-known fact that ..."
+      "contrast_and_balance": [
+        "Although it is commonly assumed that ..., it could equally be argued that ...",
+        "Even though many regard ... as beneficial, others maintain that ...",
+        "Despite the apparent advantages of ..., the drawbacks are significant.",
+        "While some researchers contend that ..., there is also evidence to suggest that ...",
+        "In contrast to popular belief, recent findings indicate that ..."
       ],
-      "reason_or_evidence": [
-        "Since ..., people have started to ...",
-        "As ..., it has become increasingly clear that ...",
-        "Given that ..., many experts now believe ...",
-        "Because ..., we can understand why ... has become so important.",
-        "Due to ..., it is no surprise that ... has changed so rapidly."
+      "stance_markers": [
+        "It could be argued that ... plays a crucial role in ...",
+        "There is a tendency to believe that ..., yet this view may overlook ...",
+        "It seems reasonable to assume that ... contributes to ...",
+        "A widely held assumption is that ..., although this is not always the case.",
+        "It is often maintained that ..., but closer examination reveals ..."
       ],
-      "purpose": [
-        "In order to understand this issue more clearly, this essay will examine ...",
-        "With the aim of exploring this topic, the following paragraphs will discuss ...",
-        "This essay will attempt to evaluate both sides of the argument concerning ...",
-        "So as to clarify the question of ..., it is worth considering ...",
-        "The main purpose of this essay is to analyse whether ..."
+      "purpose_and_scope": [
+        "This essay will critically examine both the potential benefits and limitations of ...",
+        "The aim of this paper is to evaluate the extent to which ... influences ...",
+        "This discussion will assess the main arguments surrounding ...",
+        "The purpose of this essay is to analyse the implications of ...",
+        "In order to provide a balanced perspective, this essay will explore ..."
       ],
-      "link_to_thesis": [
-        "Hence, it is vital to examine the arguments for and against ...",
-        "Therefore, this essay will discuss possible causes and effects of ...",
-        "Consequently, this discussion will focus on how we can deal with ...",
-        "For this reason, it is necessary to consider the benefits and drawbacks of ...",
-        "Thus, the following paragraphs will explore different opinions regarding ..."
+      "transition_to_thesis": [
+        "Therefore, it is essential to consider both sides before drawing any conclusions.",
+        "Consequently, this analysis will attempt to determine whether ...",
+        "Hence, the following discussion seeks to clarify the main reasons for ...",
+        "For this reason, the subsequent paragraphs will address ...",
+        "Thus, it becomes necessary to evaluate ..."
       ]
     },
     "body": {
-      "for_and_against": [
-        "It is essential to consider both the advantages and disadvantages of ...",
-        "On the one hand, supporters argue that ... provides many benefits.",
-        "On the other hand, critics believe that ... can cause serious problems.",
-        "The main advantage of ... is that ...",
-        "A further positive aspect is that ...",
-        "However, a major disadvantage is that ...",
-        "Despite these drawbacks, some people still think that ...",
-        "In contrast, others insist that ..."
+      "development_and_support": [
+        "One key argument in favour of ... is that ...",
+        "A further point to consider is the extent to which ... affects ...",
+        "This argument is supported by evidence from recent studies showing that ...",
+        "It is worth noting that ... tends to result in ...",
+        "Empirical data suggests that ... plays a determining role in ..."
       ],
-      "problems_and_solutions": [
-        "One of the most serious problems facing society today is ...",
-        "This issue has become increasingly severe due to ...",
-        "In order to tackle this problem, it is necessary to ...",
-        "Possible solutions could include ...",
-        "Another effective way to address this situation would be to ...",
-        "Governments should take steps to ...",
-        "Individuals can also play a part by ...",
-        "Although the problem is complex, there are practical measures that could be implemented."
+      "concession_and_refutation": [
+        "Admittedly, there are certain advantages to ..., yet these should not be overstated.",
+        "While it is tempting to assume that ..., such a view fails to recognise ...",
+        "Although the importance of ... cannot be denied, it is equally vital to consider ...",
+        "It must be acknowledged that ..., however, this does not necessarily mean that ...",
+        "Even if we accept that ..., it remains questionable whether ..."
       ],
-      "cause_and_effect": [
-        "There are several reasons why ... has become a growing issue.",
-        "One important cause of this is ...",
-        "Another contributing factor is ...",
-        "As a result, ... has increased dramatically.",
-        "This has led to ... having a significant impact on ...",
-        "Consequently, ... is becoming more and more common.",
-        "For this reason, it is important to understand how ... influences ...",
-        "The effects of this problem can be seen in ..."
+      "linking_and_cohesion": [
+        "Not only does ... contribute to ..., but it also influences ...",
+        "Furthermore, the relationship between ... and ... is particularly noteworthy.",
+        "In addition to this, one must also take into account ...",
+        "Nevertheless, this argument overlooks the possibility that ...",
+        "On the contrary, it could be said that ..."
       ],
-      "speculation": [
-        "It is possible that this situation will improve in the future.",
-        "There is a chance that things may change as awareness grows.",
-        "If this trend continues, we could face serious consequences.",
-        "It is likely that ..., unless urgent action is taken.",
-        "Some experts predict that ..., which could result in ...",
-        "Should this pattern persist, the impact on ... would be considerable."
+      "cause_and_effect_advanced": [
+        "The increasing prevalence of ... can largely be attributed to ...",
+        "A possible explanation for this trend lies in ...",
+        "As a direct consequence of ..., many societies now face ...",
+        "This phenomenon has emerged partly because of ...",
+        "The implications of ... are far-reaching, particularly in terms of ..."
       ],
-      "opinion": [
-        "From my point of view, ...",
-        "Personally, I believe that ... is the best approach to this problem.",
-        "In my opinion, the advantages of ... far outweigh the disadvantages.",
-        "I am convinced that ... offers the most practical solution.",
-        "I strongly feel that ... plays a key role in ...",
-        "Although some people disagree, I think that ..."
+      "examples_and_evidence": [
+        "For instance, research conducted by ... demonstrates that ...",
+        "A clear example of this can be observed in ...",
+        "To illustrate this point, it is worth examining ...",
+        "A notable case can be found in ...",
+        "These findings highlight the extent to which ..."
       ],
-      "examples": [
-        "For example, ... clearly shows that ...",
-        "A good illustration of this is ...",
-        "This can be seen when ...",
-        "An example that highlights this issue is ...",
-        "For instance, ..."
-      ],
-      "contrast_and_concession": [
-        "Although it may seem that ..., the reality is that ...",
-        "While some people argue that ..., it is also true that ...",
-        "Despite the advantages of ..., there are also disadvantages.",
-        "Even if we accept that ..., it cannot be denied that ...",
-        "In spite of ..., one must recognize that ..."
-      ],
-      "evaluation": [
-        "Taking everything into account, it seems that ...",
-        "Overall, it can be said that ... has both benefits and risks.",
-        "This analysis shows that ... plays a more significant role than many assume.",
-        "Considering all the evidence, it is clear that ...",
-        "We can therefore conclude that ..."
+      "evaluation_and_analysis": [
+        "This suggests that the benefits of ... may outweigh the disadvantages under certain conditions.",
+        "Taken together, these arguments imply that ... should be reassessed.",
+        "The evidence presented appears to support the view that ...",
+        "However, this interpretation remains open to debate.",
+        "Ultimately, the significance of ... depends largely on ..."
       ]
     },
     "conclusion": {
       "summary": [
-        "In conclusion, the arguments for and against ... show that there are no easy answers.",
-        "To sum up, both sides of the debate present valid points.",
-        "All things considered, it can be concluded that ...",
-        "In summary, it seems that ... plays an increasingly important role in ...",
-        "Taking everything into account, it is clear that ..."
+        "In conclusion, the analysis of ... reveals that there are strong arguments on both sides.",
+        "To summarise, it is evident that ... has both positive and negative implications.",
+        "Overall, this discussion has shown that ... is a complex issue requiring careful consideration.",
+        "In brief, the evidence seems to indicate that ... plays a decisive role in ...",
+        "All in all, there is no simple answer to the question of ..."
       ],
-      "recommendation": [
-        "Therefore, action should be taken to ...",
-        "For this reason, it is recommended that ...",
-        "Governments and individuals should work together to ...",
-        "It would be wise to consider measures such as ...",
-        "Future policies should focus on ..."
+      "synthesis_and_evaluation": [
+        "While recognising the limitations of ..., it is still possible to acknowledge its value in ...",
+        "On balance, it appears that ... offers more benefits than drawbacks.",
+        "When all factors are considered, it becomes clear that ... should not be underestimated.",
+        "The key challenge remains how to ... without compromising ...",
+        "Hence, any effective solution must take into account ..."
       ],
-      "final_opinion": [
-        "From my personal perspective, ... seems to be the best approach.",
-        "Ultimately, I believe that ...",
-        "In the end, we should aim to find a balance between ...",
-        "My final opinion is that ... remains the most effective solution.",
-        "While opinions may differ, I am convinced that ..."
+      "recommendations": [
+        "It is therefore recommended that policymakers focus on ...",
+        "Future research should explore the long-term effects of ...",
+        "Efforts should be made to ensure that ... is implemented effectively.",
+        "In light of this discussion, it is advisable to ...",
+        "The most practical way forward would be to ..."
       ],
-      "future_impact": [
-        "If this situation continues, it will certainly affect future generations.",
-        "Looking ahead, we may see changes in how people view ...",
-        "In the future, it is likely that ... will continue to evolve.",
-        "This could lead to further developments in ...",
-        "Ultimately, the decisions we make today will shape the world of tomorrow."
+      "personal_reflection": [
+        "From my perspective, this issue highlights the importance of ...",
+        "Personally, I find the arguments supporting ... to be more convincing.",
+        "It seems to me that ... represents the most sustainable approach.",
+        "In my view, the long-term benefits of ... outweigh the short-term costs.",
+        "As far as I am concerned, this discussion reinforces the idea that ..."
       ]
     }
   }
 }
-
