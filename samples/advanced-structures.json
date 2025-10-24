@@ -1,34 +1,114 @@
 {
-  "Advanced Examples with Participial and Gerund Phrases": {
-    "Adjective focus": [
-      "Unchecked technological expansion may result in unprecedented ethical dilemmas, challenging our very definition of human identity."
-    ],
-    "Adverb focus": [
-      "The government acted decisively, implementing emergency measures aimed at reversing years of environmental neglect."
-    ],
-    "Participle of result": [
-      "Urban overcrowding has escalated beyond control, producing social tensions that threaten the stability of entire communities."
-    ],
-    "Combined adjectives and gerund of consequence": [
-      "Deeply polarized political debates often deteriorate into hostility, alienating citizens from the democratic process."
-    ],
-    "Causal participle phrase": [
-      "Having been neglected for decades, rural infrastructure is now collapsing, forcing thousands to migrate towards urban centers."
-    ],
-    "Present participle as consequence with adjectives": [
-      "Immigration policies, frequently perceived as unjust, risk creating mistrust and resentment among minority groups."
-    ],
-    "Gerund phrase expressing ongoing consequence": [
-      "Failing to regulate social media responsibly can lead to misinformation spreading uncontrollably within hours."
-    ],
-    "Adjectival phrase with participial expansion": [
-      "Desperate and disillusioned, young graduates are turning to foreign opportunities, reshaping the national labor market."
-    ],
-    "Balance and consequence": [
-      "While global trade remains an engine of growth, it also intensifies competition, pressuring local industries to reduce costs at any price."
-    ],
-    "Double participle expansion": [
-      "Driven by curiosity and seeking significance, many individuals embrace risky innovations, transforming entire cultural landscapes."
-    ]
-  }
+  "AdvancedStructures": [
+    {
+      "category": "Adjective Focus: Descriptive Precision in Academic Writing",
+      "examples": [
+        "Unchecked technological expansion may result in unprecedented ethical dilemmas, challenging our very definition of human identity.",
+        "Deeply rooted cultural traditions often hinder progressive reform, creating friction between innovation and preservation.",
+        "Highly controversial immigration policies have divided public opinion, exposing underlying tensions within modern democracies.",
+        "Severely underfunded educational systems continue to struggle, widening the gap between privileged and disadvantaged students.",
+        "Rapidly advancing medical research presents extraordinary opportunities, redefining humanity’s relationship with life and mortality.",
+        "Widespread digital surveillance raises disturbing questions about privacy, autonomy, and civil liberty in the 21st century."
+      ]
+    },
+    {
+      "category": "Adverb Focus: Strengthening Academic Tone and Precision",
+      "examples": [
+        "The government acted decisively, implementing emergency measures aimed at reversing years of environmental neglect.",
+        "Educational institutions have responded cautiously, introducing gradual reforms to avoid social backlash.",
+        "Researchers have repeatedly demonstrated, through empirical evidence, that climate denial undermines long-term sustainability.",
+        "Citizens increasingly demand accountability, insisting on transparent governance and equitable distribution of resources.",
+        "Technological corporations are now operating globally, effectively transcending the regulatory capacity of national governments.",
+        "Societies have historically evolved unevenly, revealing how economic advantage dictates cultural dominance."
+      ]
+    },
+    {
+      "category": "Participle of Result: Expressing Consequence and Outcome",
+      "examples": [
+        "Urban overcrowding has escalated beyond control, producing social tensions that threaten the stability of entire communities.",
+        "Automation has accelerated industrial efficiency, displacing thousands of workers and reshaping employment landscapes.",
+        "Unchecked consumerism continues to dominate global markets, fostering environmental degradation on a planetary scale.",
+        "Decades of political corruption have eroded public trust, leaving many citizens disillusioned with democracy itself.",
+        "Mass tourism has transformed historical cities, turning cultural heritage into commercial spectacle.",
+        "The rapid spread of misinformation has distorted public debate, undermining faith in reliable journalism."
+      ]
+    },
+    {
+      "category": "Combined Adjectives and Gerund of Consequence",
+      "examples": [
+        "Deeply polarized political debates often deteriorate into hostility, alienating citizens from the democratic process.",
+        "Highly competitive job markets are creating widespread anxiety, forcing graduates to accept unstable working conditions.",
+        "Intensely digital lifestyles are weakening real human connections, reducing empathy and interpersonal understanding.",
+        "Increasingly unequal societies risk fragmenting social cohesion, perpetuating cycles of exclusion and resentment.",
+        "Profoundly divided electorates can destabilize entire nations, eroding civic responsibility and tolerance.",
+        "Excessively commercialized culture is transforming creativity into consumption, diminishing artistic authenticity."
+      ]
+    },
+    {
+      "category": "Causal Participle Phrase: Showing Cause and Background",
+      "examples": [
+        "Having been neglected for decades, rural infrastructure is now collapsing, forcing thousands to migrate towards urban centers.",
+        "Having witnessed the consequences of global conflict, many nations are now prioritizing diplomacy over aggression.",
+        "Having faced repeated economic crises, governments have learned to adopt more sustainable fiscal policies.",
+        "Having ignored early warnings, policy-makers now struggle to contain the effects of climate change.",
+        "Having grown dependent on fossil fuels, industrial economies find it difficult to transition towards renewable energy.",
+        "Having endured centuries of inequality, marginalized groups are reclaiming their voice in political discourse."
+      ]
+    },
+    {
+      "category": "Present Participle as Consequence with Adjectives",
+      "examples": [
+        "Immigration policies, frequently perceived as unjust, risk creating mistrust and resentment among minority groups.",
+        "Government reforms, widely celebrated as inclusive, are unintentionally increasing bureaucratic inefficiency.",
+        "Social networks, commonly regarded as liberating, are rapidly becoming tools of manipulation and surveillance.",
+        "Educational institutions, often under pressure to modernize, risk diluting academic integrity.",
+        "Public health campaigns, though widely accepted, sometimes provoke skepticism among certain demographics.",
+        "Media organizations, heavily influenced by political interests, struggle to maintain impartiality and credibility."
+      ]
+    },
+    {
+      "category": "Gerund Phrase Expressing Ongoing Consequence",
+      "examples": [
+        "Failing to regulate social media responsibly can lead to misinformation spreading uncontrollably within hours.",
+        "Ignoring early signs of inequality perpetuates systemic injustice across generations.",
+        "Allowing extremist rhetoric to circulate freely risks normalizing intolerance in public discourse.",
+        "Neglecting the needs of rural populations continues to deepen urban–rural divides.",
+        "Overlooking ethical standards in artificial intelligence development invites unforeseen societal harm.",
+        "Prioritizing economic growth over sustainability jeopardizes the planet’s ecological balance."
+      ]
+    },
+    {
+      "category": "Adjectival Phrase with Participial Expansion",
+      "examples": [
+        "Desperate and disillusioned, young graduates are turning to foreign opportunities, reshaping the national labour market.",
+        "Exhausted but determined, healthcare professionals continue to serve under unprecedented pressure.",
+        "Frustrated yet hopeful, voters have demanded systemic reform through democratic channels.",
+        "Empowered and informed, younger generations are redefining civic engagement in the digital age.",
+        "Disoriented and divided, communities struggle to rebuild trust after political upheaval.",
+        "Inspired yet cautious, scientists pursue breakthroughs while navigating ethical constraints."
+      ]
+    },
+    {
+      "category": "Balance and Consequence: Cause vs. Countereffect",
+      "examples": [
+        "While global trade remains an engine of growth, it also intensifies competition, pressuring local industries to reduce costs at any price.",
+        "Although social media enhances connectivity, it simultaneously accelerates misinformation and polarization.",
+        "Even though renewable energy promises sustainability, its large-scale implementation disrupts traditional labour markets.",
+        "Whereas technological progress improves efficiency, it often undermines the value of human craftsmanship.",
+        "Despite medical advances extending life expectancy, they raise profound ethical questions about quality of life.",
+        "Although globalization fosters intercultural dialogue, it frequently erodes linguistic and cultural diversity."
+      ]
+    },
+    {
+      "category": "Double Participle Expansion: Layered Complexity and Flow",
+      "examples": [
+        "Driven by curiosity and seeking significance, many individuals embrace risky innovations, transforming entire cultural landscapes.",
+        "Shaped by centuries of migration and adapting to global influence, modern societies are redefining their collective identity.",
+        "Fueled by ambition and striving for recognition, creative industries are reshaping contemporary aesthetics.",
+        "Informed by data and inspired by human creativity, artificial intelligence is redefining the limits of expression.",
+        "Motivated by compassion and acting in solidarity, humanitarian groups are alleviating crises across borders.",
+        "Strengthened by shared purpose and learning from adversity, communities are emerging more resilient than ever."
+      ]
+    }
+  ]
 }
