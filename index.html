@@ -650,7 +650,7 @@
     // Load expressions from JSON file
     async function loadExpressions(level) {
       try {
-        const response = await fetch(`phrases/${level}-level.json`);
+        const response = await fetch(`../../samples/advanced-structures.json`);
         if (!response.ok) {
           throw new Error(`Failed to load ${level} expressions`);
         }
