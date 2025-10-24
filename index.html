@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>INTUITY - Paragraph Generator</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>INTUITY - Essay Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       font-family: 'DM Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
-      background: #0B0B0B;
-      color: #BFC3B8;
+      background: #0d0d0d;
+      color: white;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
@@ -20,14 +20,13 @@
       position: relative;
     }
 
-    /* Animated Background */
     .background {
       position: fixed;
       top: 0; left: 0; width: 100%; height: 100%;
-      background: radial-gradient(circle at 25% 15%, rgba(201, 169, 97, 0.09) 0%, transparent 50%),
-                  radial-gradient(circle at 75% 85%, rgba(182, 95, 54, 0.07) 0%, transparent 45%),
-                  radial-gradient(circle at 50% 50%, rgba(201, 169, 97, 0.04) 0%, transparent 60%),
-                  #0B0B0B;
+      background: radial-gradient(circle at 30% 20%, rgba(201, 169, 97, 0.08) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 80%, rgba(201, 169, 97, 0.06) 0%, transparent 45%),
+                  radial-gradient(circle at 20% 70%, rgba(201, 169, 97, 0.04) 0%, transparent 60%),
+                  #0d0d0d;
       z-index: 0;
       overflow: hidden;
     }
@@ -42,47 +41,47 @@
     .curve-elegant {
       position: absolute;
       border-radius: 50%;
-      filter: blur(1.5px);
+      filter: blur(1px);
     }
 
     .curve-elegant-1 {
-      width: 400px;
-      height: 700px;
-      top: -250px;
-      right: -120px;
-      border: 1.5px solid rgba(201, 169, 97, 0.16);
+      width: 300px;
+      height: 600px;
+      top: -200px;
+      right: -100px;
+      border: 1.5px solid rgba(201, 169, 97, 0.18);
       background: linear-gradient(135deg, 
-        rgba(201, 169, 97, 0.07) 0%, 
+        rgba(201, 169, 97, 0.06) 0%, 
         rgba(201, 169, 97, 0.04) 50%, 
         transparent 100%);
-      transform: rotate(30deg);
-      animation: floatElegant 14s ease-in-out infinite;
+      transform: rotate(25deg);
+      animation: floatElegant 12s ease-in-out infinite;
     }
 
     .curve-elegant-2 {
-      width: 500px;
-      height: 900px;
-      bottom: -350px;
-      left: -180px;
-      border: 1px solid rgba(182, 95, 54, 0.14);
+      width: 400px;
+      height: 800px;
+      bottom: -300px;
+      left: -150px;
+      border: 1px solid rgba(201, 169, 97, 0.15);
       background: linear-gradient(135deg, 
-        rgba(182, 95, 54, 0.06) 0%, 
-        transparent 65%);
-      transform: rotate(-25deg);
-      animation: floatElegant 17s ease-in-out infinite reverse;
+        rgba(201, 169, 97, 0.05) 0%, 
+        transparent 60%);
+      transform: rotate(-20deg);
+      animation: floatElegant 15s ease-in-out infinite reverse;
     }
 
     .curve-elegant-3 {
-      width: 300px;
-      height: 600px;
-      top: 35%;
-      right: 8%;
-      border: 1px solid rgba(201, 169, 97, 0.12);
+      width: 250px;
+      height: 500px;
+      top: 30%;
+      right: 5%;
+      border: 1px solid rgba(201, 169, 97, 0.13);
       background: linear-gradient(135deg, 
-        rgba(201, 169, 97, 0.05) 0%, 
-        transparent 75%);
-      transform: rotate(50deg);
-      animation: driftElegant 20s ease-in-out infinite;
+        rgba(201, 169, 97, 0.045) 0%, 
+        transparent 70%);
+      transform: rotate(45deg);
+      animation: driftElegant 18s ease-in-out infinite;
     }
 
     @keyframes floatElegant {
@@ -91,50 +90,50 @@
         opacity: 1;
       }
       50% { 
-        transform: translateY(-25px) rotate(calc(var(--base-rotation, 0deg) + 3deg));
-        opacity: 0.65;
+        transform: translateY(-20px) rotate(calc(var(--base-rotation, 0deg) + 2deg));
+        opacity: 0.7;
       }
     }
 
     @keyframes driftElegant {
       0%, 100% { 
-        transform: translate(0, 0) rotate(50deg);
+        transform: translate(0, 0) rotate(45deg);
       }
       33% { 
-        transform: translate(15px, -20px) rotate(53deg);
+        transform: translate(10px, -15px) rotate(47deg);
       }
       66% { 
-        transform: translate(-8px, -12px) rotate(47deg);
+        transform: translate(-5px, -10px) rotate(43deg);
       }
     }
 
-    .curve-elegant-1 { --base-rotation: 30deg; }
-    .curve-elegant-2 { --base-rotation: -25deg; }
+    .curve-elegant-1 { --base-rotation: 25deg; }
+    .curve-elegant-2 { --base-rotation: -20deg; }
 
     body::before {
       content: '';
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.015'/%3E%3C/svg%3E");
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.01'/%3E%3C/svg%3E");
       pointer-events: none;
       z-index: 1;
     }
 
     .container { 
-      max-width: 1280px; 
+      max-width: 1200px; 
       margin: 0 auto; 
       position: relative;
       z-index: 2;
-      padding: 0 1.5rem;
+      padding: 0 1rem;
     }
 
     /* Header */
     .header { 
       display: grid;
-      grid-template-columns: 120px 1fr 120px;
+      grid-template-columns: 100px 1fr 100px;
       align-items: center;
-      margin-bottom: 1.5rem;
-      padding: 1rem 1.5rem 0.75rem;
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem 0.5rem;
     }
 
     .header-left {
@@ -150,49 +149,48 @@
     }
 
     .header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem; 
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.25rem; 
       font-weight: 700; 
       color: #C9A961;
       margin: 0; 
-      letter-spacing: 0.02em;
-      background: linear-gradient(135deg, #C9A961 0%, rgba(201, 169, 97, 0.75) 100%);
+      letter-spacing: -0.04em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #C9A961 0%, rgba(201, 169, 97, 0.8) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
 
     .header .subtitle { 
-      font-size: 0.875rem; 
+      font-size: 0.8125rem; 
       color: #8e8e93; 
-      margin: 0.375rem 0 0.25rem; 
+      margin: 0.25rem 0 0.125rem; 
       font-weight: 500;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.04em;
       text-transform: uppercase;
-      font-family: 'DM Sans', sans-serif;
     }
 
     .header .author { 
-      font-size: 0.75rem; 
-      color: #B65F36; 
+      font-size: 0.6875rem; 
+      color: #636366; 
       font-weight: 400;
       letter-spacing: 0.02em;
       margin: 0;
-      font-style: italic;
     }
 
     .back-btn {
-      background: rgba(28, 28, 30, 0.5);
+      background: rgba(28, 28, 30, 0.6);
       backdrop-filter: blur(40px) saturate(150%);
       -webkit-backdrop-filter: blur(40px) saturate(150%);
-      border: 1px solid rgba(201, 169, 97, 0.2);
+      border: 1px solid rgba(84, 84, 88, 0.25);
       color: #C9A961;
-      padding: 0.5rem 1rem;
-      font-size: 0.75rem;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.625rem;
       font-weight: 700;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       text-transform: uppercase;
-      border-radius: 0.75rem;
+      border-radius: 0.625rem;
       cursor: pointer;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       font-family: 'DM Sans', sans-serif;
@@ -222,46 +220,48 @@
       border-color: rgba(201, 169, 97, 0.4);
     }
 
-    /* Level Selection Bar */
-    .level-bar {
+    /* Toggle Bar */
+    .toggle-bar {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 0.75rem;
-      margin-bottom: 2rem;
-      padding: 0 1.5rem;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      padding: 0 1rem;
+      flex-wrap: wrap;
     }
 
-    .level-group {
+    .toggle-group {
       display: flex;
       background: rgba(28, 28, 30, 0.6);
       backdrop-filter: blur(40px) saturate(150%);
       -webkit-backdrop-filter: blur(40px) saturate(150%);
-      border-radius: 0.75rem;
-      padding: 0.375rem;
+      border-radius: 0.625rem;
+      padding: 0.25rem;
       border: 1px solid rgba(84, 84, 88, 0.25);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
-      gap: 0.375rem;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+      gap: 0.25rem;
     }
 
-    .level-btn {
+    .toggle-btn {
       background: transparent;
       border: none;
       color: #8e8e93;
-      padding: 0.5rem 1.25rem;
-      font-size: 0.75rem;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.625rem;
       font-weight: 700;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.03em;
       text-transform: uppercase;
-      border-radius: 0.625rem;
+      border-radius: 0.5rem;
       cursor: pointer;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       font-family: 'DM Sans', sans-serif;
       position: relative;
       overflow: hidden;
+      white-space: nowrap;
     }
 
-    .level-btn::before {
+    .toggle-btn::before {
       content: '';
       position: absolute;
       top: 0;
@@ -272,33 +272,23 @@
       transition: left 0.5s;
     }
 
-    .level-btn:hover::before {
+    .toggle-btn:hover::before {
       left: 100%;
     }
 
-    .level-btn:hover {
+    .toggle-btn:hover {
       color: #C9A961;
     }
 
-    .level-btn.active {
+    .toggle-btn.active {
       background: rgba(201, 169, 97, 0.25);
       color: #C9A961;
-      box-shadow: 0 2px 12px rgba(201, 169, 97, 0.25);
+      box-shadow: 0 2px 8px rgba(201, 169, 97, 0.2);
       border: 1px solid rgba(201, 169, 97, 0.3);
     }
 
-    /* Main Workspace */
-    .workspace {
-      display: grid;
-      grid-template-columns: 380px 1fr;
-      gap: 2rem;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 1.5rem 3rem;
-    }
-
-    /* Sidebar with Expressions */
-    .sidebar {
+    /* Main Content Area */
+    .content-container {
       background: rgba(28, 28, 30, 0.6);
       backdrop-filter: blur(40px) saturate(150%);
       -webkit-backdrop-filter: blur(40px) saturate(150%);
@@ -306,275 +296,148 @@
       padding: 2rem;
       border: 1px solid rgba(84, 84, 88, 0.25);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-      height: fit-content;
-      max-height: calc(100vh - 280px);
-      overflow-y: auto;
-      position: sticky;
-      top: 2rem;
+      max-width: 1200px;
+      margin: 0 auto 2rem;
     }
 
-    .sidebar-header {
-      margin-bottom: 1.5rem;
+    .content-header {
+      margin-bottom: 2rem;
       padding-bottom: 1rem;
       border-bottom: 1px solid rgba(84, 84, 88, 0.2);
     }
 
-    .sidebar-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.125rem;
+    .content-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
       font-weight: 600;
       color: #C9A961;
       letter-spacing: 0.02em;
       margin-bottom: 0.5rem;
     }
 
-    .sidebar-subtitle {
-      font-size: 0.75rem;
+    .content-subtitle {
+      font-size: 0.875rem;
       color: #8e8e93;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      font-weight: 600;
+      font-weight: 500;
     }
 
-    .section-group {
-      margin-bottom: 1.5rem;
-    }
-
-    .section-header {
-      font-size: 0.6875rem;
-      color: #B65F36;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 700;
-      margin-bottom: 0.75rem;
-      padding-left: 0.25rem;
-    }
-
-    .expression-item {
-      background: rgba(13, 13, 13, 0.6);
-      border: 1px solid rgba(84, 84, 88, 0.2);
-      border-radius: 0.875rem;
-      padding: 0.875rem 1rem;
-      margin-bottom: 0.625rem;
-      font-size: 0.75rem;
-      line-height: 1.6;
-      color: #e5e5e7;
-      cursor: pointer;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .expression-item::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(201, 169, 97, 0.08), transparent);
-      transition: left 0.6s;
-    }
-
-    .expression-item:hover::before {
-      left: 100%;
-    }
-
-    .expression-item:hover {
-      background: rgba(201, 169, 97, 0.12);
-      border-color: rgba(201, 169, 97, 0.35);
-      transform: translateX(6px);
-      box-shadow: 0 4px 16px rgba(201, 169, 97, 0.15);
-    }
-
-    .placeholder {
-      color: #636366;
-      font-style: italic;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    /* Writing Area */
-    .writing-area-container {
-      background: rgba(28, 28, 30, 0.6);
-      backdrop-filter: blur(40px) saturate(150%);
-      -webkit-backdrop-filter: blur(40px) saturate(150%);
-      border-radius: 1.5rem;
-      padding: 2rem;
-      border: 1px solid rgba(84, 84, 88, 0.25);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    .structures-list {
       display: flex;
       flex-direction: column;
-      gap: 1.25rem;
+      gap: 1.5rem;
     }
 
-    .writing-header {
+    .structure-card {
+      background: rgba(13, 13, 13, 0.6);
+      border: 1px solid rgba(84, 84, 88, 0.2);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .structure-card:hover {
+      border-color: rgba(201, 169, 97, 0.3);
+      box-shadow: 0 8px 24px rgba(201, 169, 97, 0.1);
+    }
+
+    .structure-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid rgba(84, 84, 88, 0.2);
+      margin-bottom: 1rem;
+      cursor: pointer;
     }
 
-    .writing-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.125rem;
+    .structure-category {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1rem;
       font-weight: 600;
       color: #C9A961;
       letter-spacing: 0.02em;
     }
 
-    .word-count {
-      font-size: 0.75rem;
-      color: #8e8e93;
-      font-weight: 600;
-      background: rgba(13, 13, 13, 0.5);
-      padding: 0.375rem 0.75rem;
-      border-radius: 0.5rem;
-      border: 1px solid rgba(84, 84, 88, 0.2);
-    }
-
-    textarea {
-      width: 100%;
-      min-height: 500px;
-      background: rgba(13, 13, 13, 0.85);
-      border: 1px solid rgba(84, 84, 88, 0.2);
-      border-radius: 1.125rem;
-      padding: 1.5rem;
-      color: #e5e5e7;
-      font-size: 0.9375rem;
-      line-height: 1.85;
-      font-family: 'DM Sans', sans-serif;
-      resize: vertical;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    textarea:focus {
-      outline: none;
-      border-color: rgba(201, 169, 97, 0.5);
-      background: rgba(13, 13, 13, 0.95);
-      box-shadow: 0 0 0 4px rgba(201, 169, 97, 0.12);
-    }
-
-    textarea::placeholder {
-      color: #636366;
-      font-style: italic;
-    }
-
-    .action-buttons {
-      display: flex;
-      gap: 1rem;
-      justify-content: flex-end;
-    }
-
-    .action-btn {
-      background: rgba(28, 28, 30, 0.6);
-      backdrop-filter: blur(40px) saturate(150%);
-      -webkit-backdrop-filter: blur(40px) saturate(150%);
-      border: 1px solid rgba(84, 84, 88, 0.25);
+    .expand-btn {
+      background: rgba(201, 169, 97, 0.15);
+      border: 1px solid rgba(201, 169, 97, 0.3);
       color: #C9A961;
-      padding: 0.5rem 1.25rem;
-      font-size: 0.75rem;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.625rem;
       font-weight: 700;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      border-radius: 0.75rem;
+      border-radius: 0.5rem;
       cursor: pointer;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      font-family: 'DM Sans', sans-serif;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-      position: relative;
-      overflow: hidden;
     }
 
-    .action-btn::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(201, 169, 97, 0.15), transparent);
-      transition: left 0.5s;
+    .expand-btn:hover {
+      background: rgba(201, 169, 97, 0.25);
+      transform: translateY(-1px);
     }
 
-    .action-btn:hover::before {
-      left: 100%;
+    .structure-examples {
+      display: none;
     }
 
-    .action-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(201, 169, 97, 0.25);
-      border-color: rgba(201, 169, 97, 0.4);
+    .structure-examples.expanded {
+      display: block;
     }
 
-    .primary-btn {
-      background: linear-gradient(135deg, rgba(201, 169, 97, 0.25), rgba(201, 169, 97, 0.15));
-      border: 1px solid rgba(201, 169, 97, 0.5);
+    .example-item {
+      background: rgba(28, 28, 30, 0.5);
+      border: 1px solid rgba(84, 84, 88, 0.2);
+      border-radius: 0.75rem;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.8125rem;
+      line-height: 1.8;
+      color: #e5e5e7;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .primary-btn:hover {
-      background: linear-gradient(135deg, rgba(201, 169, 97, 0.35), rgba(201, 169, 97, 0.25));
-      box-shadow: 0 8px 32px rgba(201, 169, 97, 0.35);
+    .example-item:hover {
+      background: rgba(201, 169, 97, 0.1);
+      border-color: rgba(201, 169, 97, 0.3);
+      transform: translateX(4px);
     }
 
-    /* Scrollbar Styling */
-    .sidebar::-webkit-scrollbar,
-    textarea::-webkit-scrollbar {
-      width: 8px;
+    .example-item:last-child {
+      margin-bottom: 0;
     }
 
-    .sidebar::-webkit-scrollbar-track,
-    textarea::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    .sidebar::-webkit-scrollbar-thumb,
-    textarea::-webkit-scrollbar-thumb {
-      background: rgba(201, 169, 97, 0.3);
-      border-radius: 8px;
-      transition: background 0.2s ease;
-    }
-
-    .sidebar::-webkit-scrollbar-thumb:hover,
-    textarea::-webkit-scrollbar-thumb:hover {
-      background: rgba(201, 169, 97, 0.5);
+    .placeholder {
+      text-align: center;
+      padding: 3rem 2rem;
+      color: #636366;
+      font-style: italic;
+      font-size: 0.875rem;
     }
 
     /* Responsive */
-    @media (max-width: 1024px) {
-      .workspace {
-        grid-template-columns: 1fr;
-      }
-
-      .sidebar {
-        position: static;
-        max-height: 450px;
-      }
-
+    @media (max-width: 968px) {
       .header {
         grid-template-columns: auto 1fr auto;
+      }
+
+      .toggle-bar {
+        gap: 0.5rem;
       }
     }
 
     @media (max-width: 640px) {
       .header h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
       }
 
-      .level-btn {
-        padding: 0.4rem 1rem;
-        font-size: 0.6875rem;
+      .toggle-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.5625rem;
       }
 
-      .action-btn {
-        padding: 0.4rem 1rem;
-        font-size: 0.6875rem;
-      }
-
-      textarea {
-        min-height: 400px;
-        font-size: 0.875rem;
+      .back-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.5625rem;
       }
     }
   </style>
@@ -596,206 +459,226 @@
       </div>
       <div class="header-center">
         <h1>INTUITY</h1>
-        <p class="subtitle">Paragraph Generator</p>
-        <p class="author">Majid Nashtai</p>
+        <p class="subtitle">Essay Hub</p>
+        <p class="author">by Majid Nashtai</p>
       </div>
       <div class="header-right"></div>
     </div>
 
-    <!-- Level Selection Bar -->
-    <div class="level-bar">
-      <div class="level-group">
-        <button class="level-btn active" onclick="switchLevel('B2')">B2</button>
-        <button class="level-btn" onclick="switchLevel('C1')">C1</button>
-        <button class="level-btn" onclick="switchLevel('C2')">C2</button>
+    <!-- Row 1: Level Selection -->
+    <div class="toggle-bar">
+      <div class="toggle-group" id="levelGroup">
+        <button class="toggle-btn active" onclick="switchLevel('B2')">B2</button>
+        <button class="toggle-btn" onclick="switchLevel('C1')">C1</button>
+        <button class="toggle-btn" onclick="switchLevel('C2')">C2</button>
       </div>
     </div>
 
-    <!-- Main Workspace -->
-    <div class="workspace">
-      <!-- Sidebar with Expressions -->
-      <aside class="sidebar">
-        <div class="sidebar-header">
-          <div class="sidebar-title">Curated Expressions</div>
-          <div class="sidebar-subtitle" id="sidebarSubtitle">B2 Level • Click to Insert</div>
-        </div>
-        <div id="expressionsList">
-          <p class="placeholder">Loading expressions...</p>
-        </div>
-      </aside>
+    <!-- Row 2: Content Type Selection -->
+    <div class="toggle-bar">
+      <div class="toggle-group" id="contentGroup">
+        <button class="toggle-btn active" onclick="switchContent('structures')">Advanced Structures</button>
+        <button class="toggle-btn" onclick="switchContent('sections')">Essay Sections</button>
+      </div>
+    </div>
 
-      <!-- Writing Area -->
-      <div class="writing-area-container">
-        <div class="writing-header">
-          <div class="writing-title">Your Paragraph</div>
-          <div class="word-count" id="wordCount">0 words</div>
-        </div>
-        <textarea 
-          id="writingArea" 
-          placeholder="Begin crafting your paragraph here... Click any expression from the sidebar to elegantly insert it at your cursor position."
-          spellcheck="true"
-        ></textarea>
-        <div class="action-buttons">
-          <button class="action-btn" onclick="clearText()">Clear All</button>
-          <button class="action-btn primary-btn" onclick="saveText()">💾 Save Document</button>
-        </div>
+    <!-- Row 3: Section Selection (only visible when sections is active) -->
+    <div class="toggle-bar" id="sectionBar" style="display: none;">
+      <div class="toggle-group" id="sectionGroup">
+        <button class="toggle-btn active" onclick="switchSection('introduction')">Introduction</button>
+        <button class="toggle-btn" onclick="switchSection('claim')">Claim/Argument</button>
+        <button class="toggle-btn" onclick="switchSection('conclusion')">Conclusion</button>
+      </div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="content-container">
+      <div class="content-header">
+        <div class="content-title" id="contentTitle">Advanced Structures</div>
+        <div class="content-subtitle" id="contentSubtitle">C2 Level • Academic Writing Patterns</div>
+      </div>
+      <div id="contentArea">
+        <p class="placeholder">Loading content...</p>
       </div>
     </div>
   </div>
 
   <script>
-    let currentLevel = 'B2';
-    let expressionData = {};
+    let currentLevel = 'C2';
+    let currentContent = 'structures';
+    let currentSection = 'introduction';
+    let structuresData = null;
+    let sectionsData = null;
 
-    // Load expressions from JSON file
-    async function loadExpressions(level) {
+    // Load Advanced Structures JSON
+    async function loadStructures() {
       try {
-        const response = await fetch(`../../samples/advanced-structures.json`);
-        if (!response.ok) {
-          throw new Error(`Failed to load ${level} expressions`);
-        }
+        const response = await fetch('samples/advanced-structures.json');
+        if (!response.ok) throw new Error('Failed to load structures');
         const data = await response.json();
-        expressionData[level] = data;
-        displayExpressions(data);
+        structuresData = data;
+        displayStructures();
       } catch (error) {
-        console.error('Error loading expressions:', error);
-        document.getElementById('expressionsList').innerHTML = 
-          '<p class="placeholder">Unable to load expressions. Please check that the JSON files exist in the phrases/ directory.</p>';
+        console.error('Error loading structures:', error);
+        document.getElementById('contentArea').innerHTML = 
+          '<p class="placeholder">Unable to load structures. Please ensure samples/advanced-structures.json exists.</p>';
       }
     }
 
-    // Display expressions in sidebar
-    function displayExpressions(data) {
-      const expressionsList = document.getElementById('expressionsList');
-      expressionsList.innerHTML = '';
+    // Display Advanced Structures
+    function displayStructures() {
+      const contentArea = document.getElementById('contentArea');
+      contentArea.innerHTML = '';
 
-      if (!data || Object.keys(data).length === 0) {
-        expressionsList.innerHTML = '<p class="placeholder">No expressions available for this level.</p>';
+      if (!structuresData || !structuresData.AdvancedStructures) {
+        contentArea.innerHTML = '<p class="placeholder">No structures available.</p>';
         return;
       }
 
-      // Iterate through sections (e.g., introduction, main, atmosphere, etc.)
-      for (const [section, expressions] of Object.entries(data)) {
-        const sectionGroup = document.createElement('div');
-        sectionGroup.className = 'section-group';
+      const structuresList = document.createElement('div');
+      structuresList.className = 'structures-list';
 
-        const sectionHeader = document.createElement('div');
-        sectionHeader.className = 'section-header';
-        sectionHeader.textContent = section.charAt(0).toUpperCase() + section.slice(1);
-        sectionGroup.appendChild(sectionHeader);
+      structuresData.AdvancedStructures.forEach((structure, index) => {
+        const card = document.createElement('div');
+        card.className = 'structure-card';
 
-        // Handle nested structure or flat array
-        if (Array.isArray(expressions)) {
-          expressions.forEach(expr => {
-            const item = createExpressionItem(expr);
-            sectionGroup.appendChild(item);
-          });
-        } else if (typeof expressions === 'object') {
-          // If it's an object with subsections
-          for (const [subsection, items] of Object.entries(expressions)) {
-            if (Array.isArray(items)) {
-              items.forEach(expr => {
-                const item = createExpressionItem(expr);
-                sectionGroup.appendChild(item);
-              });
-            }
-          }
-        }
+        const header = document.createElement('div');
+        header.className = 'structure-header';
+        header.onclick = () => toggleStructure(index);
 
-        expressionsList.appendChild(sectionGroup);
+        const category = document.createElement('div');
+        category.className = 'structure-category';
+        category.textContent = structure.category;
+
+        const expandBtn = document.createElement('button');
+        expandBtn.className = 'expand-btn';
+        expandBtn.textContent = index === 0 ? 'Collapse' : 'Expand';
+        expandBtn.id = `expand-btn-${index}`;
+
+        header.appendChild(category);
+        header.appendChild(expandBtn);
+
+        const examples = document.createElement('div');
+        examples.className = 'structure-examples';
+        examples.id = `examples-${index}`;
+        if (index === 0) examples.classList.add('expanded');
+
+        structure.examples.forEach(example => {
+          const item = document.createElement('div');
+          item.className = 'example-item';
+          item.textContent = example;
+          item.onclick = (e) => {
+            e.stopPropagation();
+            copyToClipboard(example);
+          };
+          examples.appendChild(item);
+        });
+
+        card.appendChild(header);
+        card.appendChild(examples);
+        structuresList.appendChild(card);
+      });
+
+      contentArea.appendChild(structuresList);
+    }
+
+    // Toggle structure expansion
+    function toggleStructure(index) {
+      const examples = document.getElementById(`examples-${index}`);
+      const btn = document.getElementById(`expand-btn-${index}`);
+      
+      if (examples.classList.contains('expanded')) {
+        examples.classList.remove('expanded');
+        btn.textContent = 'Expand';
+      } else {
+        examples.classList.add('expanded');
+        btn.textContent = 'Collapse';
       }
     }
 
-    // Create expression item element
-    function createExpressionItem(text) {
-      const item = document.createElement('div');
-      item.className = 'expression-item';
-      item.textContent = text;
-      item.onclick = () => insertExpression(text);
-      return item;
+    // Display Essay Sections (placeholder for now)
+    function displaySections() {
+      const contentArea = document.getElementById('contentArea');
+      contentArea.innerHTML = `
+        <div class="placeholder">
+          Essay Sections for ${currentLevel} Level<br>
+          Section: ${currentSection.charAt(0).toUpperCase() + currentSection.slice(1)}<br><br>
+          <em>This feature will display curated phrases for essay introductions, claims/arguments, and conclusions.</em>
+        </div>
+      `;
     }
 
-    // Switch level
+    // Switch Level
     function switchLevel(level) {
       currentLevel = level;
 
       // Update button states
-      document.querySelectorAll('.level-btn').forEach(btn => {
+      document.querySelectorAll('#levelGroup .toggle-btn').forEach(btn => {
         btn.classList.remove('active');
       });
       event.target.classList.add('active');
 
-      // Update subtitle
-      document.getElementById('sidebarSubtitle').textContent = `${level} Level • Click to Insert`;
+      updateContentDisplay();
+    }
 
-      // Load expressions for this level
-      if (expressionData[level]) {
-        displayExpressions(expressionData[level]);
+    // Switch Content Type
+    function switchContent(content) {
+      currentContent = content;
+
+      // Update button states
+      document.querySelectorAll('#contentGroup .toggle-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      event.target.classList.add('active');
+
+      updateContentDisplay();
+    }
+
+    // Switch Section
+    function switchSection(section) {
+      currentSection = section;
+
+      // Update button states
+      document.querySelectorAll('#sectionGroup .toggle-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      event.target.classList.add('active');
+
+      updateContentDisplay();
+    }
+
+    // Update Content Display
+    function updateContentDisplay() {
+      const contentTitle = document.getElementById('contentTitle');
+      const contentSubtitle = document.getElementById('contentSubtitle');
+
+      if (currentContent === 'structures') {
+        contentTitle.textContent = 'Advanced Structures';
+        contentSubtitle.textContent = `${currentLevel} Level • Academic Writing Patterns`;
+        displayStructures();
       } else {
-        loadExpressions(level);
+        contentTitle.textContent = 'Essay Sections';
+        contentSubtitle.textContent = `${currentLevel} Level • ${currentSection.charAt(0).toUpperCase() + currentSection.slice(1)}`;
+        displaySections();
       }
     }
 
-    // Insert expression into textarea
-    function insertExpression(text) {
-      const textarea = document.getElementById('writingArea');
-      const start = textarea.selectionStart;
-      const end = textarea.selectionEnd;
-      const before = textarea.value.substring(0, start);
-      const after = textarea.value.substring(end);
-
-      const needsSpaceBefore = before.length > 0 && !before.endsWith(' ') && !before.endsWith('\n');
-      const prefix = needsSpaceBefore ? ' ' : '';
-
-      textarea.value = before + prefix + text + ' ' + after;
-
-      const newPos = start + prefix.length + text.length + 1;
-      textarea.setSelectionRange(newPos, newPos);
-      textarea.focus();
-
-      updateWordCount();
+    // Copy to Clipboard
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = event.target;
+        const originalBg = btn.style.background;
+        btn.style.background = 'rgba(201, 169, 97, 0.25)';
+        setTimeout(() => {
+          btn.style.background = originalBg;
+        }, 500);
+      }).catch(err => {
+        console.error('Failed to copy:', err);
+      });
     }
 
-    // Update word count
-    function updateWordCount() {
-      const textarea = document.getElementById('writingArea');
-      const text = textarea.value.trim();
-      const words = text ? text.split(/\s+/).length : 0;
-      document.getElementById('wordCount').textContent = `${words} word${words !== 1 ? 's' : ''}`;
-    }
-
-    // Clear text
-    function clearText() {
-      if (confirm('Are you sure you want to clear all text?')) {
-        document.getElementById('writingArea').value = '';
-        updateWordCount();
-      }
-    }
-
-    // Save text
-    function saveText() {
-      const text = document.getElementById('writingArea').value;
-      const blob = new Blob([text], { type: 'text/plain' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = `INTUITY_${currentLevel}_Paragraph_${new Date().toISOString().split('T')[0]}.txt`;
-      link.click();
-
-      const btn = event.target;
-      const original = btn.innerHTML;
-      btn.innerHTML = '✓ Saved!';
-      btn.style.background = 'rgba(201, 169, 97, 0.35)';
-      setTimeout(() => {
-        btn.innerHTML = original;
-        btn.style.background = '';
-      }, 1500);
-    }
-
-    // Event listeners
-    document.getElementById('writingArea').addEventListener('input', updateWordCount);
-
-    // Initialize - load B2 on page load
-    loadExpressions('B2');
+    // Initialize
+    loadStructures();
   </script>
 </body>
 </html>
