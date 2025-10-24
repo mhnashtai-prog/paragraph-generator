@@ -631,6 +631,14 @@
       });
       event.target.classList.add('active');
 
+      // Show/hide section bar
+      const sectionBar = document.getElementById('sectionBar');
+      if (content === 'sections') {
+        sectionBar.style.display = 'flex';
+      } else {
+        sectionBar.style.display = 'none';
+      }
+
       updateContentDisplay();
     }
 
