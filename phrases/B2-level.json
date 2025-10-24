@@ -1,1 +1,125 @@
+{
+  "level": "B2",
+  "categories": {
+    "opinion": [
+      "In my opinion, ...",
+      "I believe that ...",
+      "From my point of view, ...",
+      "It seems to me that ...",
+      "Personally, I think ..."
+    ],
+    "agreement": [
+      "I completely agree with this idea.",
+      "This point of view makes sense.",
+      "There is no doubt that this is true.",
+      "I share the same opinion.",
+      "Many people would agree with this statement."
+    ],
+    "disagreement": [
+      "I do not agree with this opinion.",
+      "This idea is difficult to accept.",
+      "I have a different point of view.",
+      "However, some people think differently.",
+      "This statement is not entirely correct."
+    ],
+    "partial_agreement": [
+      "This may be true to some extent, but ...",
+      "Although I agree in part, ...",
+      "While this is a good point, ...",
+      "I can see the advantages, yet ...",
+      "There are both positive and negative sides to this issue."
+    ],
+    "generalisation": [
+      "It is often said that ...",
+      "Many people believe that ...",
+      "In most cases, ...",
+      "Generally speaking, ...",
+      "As a general rule, ..."
+    ],
+    "cause": [
+      "Because of ...",
+      "Due to ...",
+      "As a result of ...",
+      "Since ...",
+      "For this reason, ..."
+    ],
+    "effect": [
+      "As a result, ...",
+      "Therefore, ...",
+      "This means that ...",
+      "Consequently, ...",
+      "This causes ..."
+    ],
+    "referencing": [
+      "According to experts, ...",
+      "Studies show that ...",
+      "Research has found that ...",
+      "As stated in a report, ...",
+      "It has been said that ..."
+    ],
+    "facts": [
+      "It is a fact that ...",
+      "Statistics show that ...",
+      "It is clear that ...",
+      "It has been proven that ...",
+      "Surveys indicate that ..."
+    ],
+    "problems": [
+      "One major problem is ...",
+      "A serious issue is ...",
+      "Nowadays, many people face ...",
+      "There are growing concerns about ...",
+      "This situation has caused ..."
+    ],
+    "solutions": [
+      "A possible solution would be ...",
+      "One way to solve this is ...",
+      "This problem could be reduced by ...",
+      "We should try to ...",
+      "It is important to find ways to ..."
+    ],
+    "speculating": [
+      "It is possible that ...",
+      "Maybe in the future, ...",
+      "It seems likely that ...",
+      "There might be ...",
+      "If this continues, we may see ..."
+    ],
+    "justifying": [
+      "This can be explained by ...",
+      "The main reason is that ...",
+      "This happens because ...",
+      "This idea is supported by ...",
+      "It makes sense because ..."
+    ],
+    "adding": [
+      "In addition, ...",
+      "Furthermore, ...",
+      "Also, ...",
+      "Moreover, ...",
+      "Another point is that ..."
+    ],
+    "contrasting": [
+      "However, ...",
+      "On the other hand, ...",
+      "In contrast, ...",
+      "Although ..., ...",
+      "While ..., ..."
+    ],
+    "conceding": [
+      "Although this may be true, ...",
+      "Even though ..., ...",
+      "It is true that ..., but ...",
+      "While I understand this point, ...",
+      "Despite the fact that ..., ..."
+    ],
+    "concluding": [
+      "To sum up, ...",
+      "In conclusion, ...",
+      "To conclude, ...",
+      "All things considered, ...",
+      "Overall, it seems that ..."
+    ]
+  }
+}
 
