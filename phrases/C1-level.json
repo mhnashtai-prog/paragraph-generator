@@ -1,1 +1,125 @@
+{
+  "level": "C1",
+  "categories": {
+    "opinion": [
+      "It could be argued that ...",
+      "I am firmly convinced that ...",
+      "There is little doubt that ...",
+      "From a broader perspective, ...",
+      "It seems reasonable to assume that ..."
+    ],
+    "agreement": [
+      "I completely concur with this view.",
+      "This argument is highly persuasive.",
+      "There is strong evidence to support this claim.",
+      "Such reasoning appears entirely justified.",
+      "It is difficult to disagree with this standpoint."
+    ],
+    "disagreement": [
+      "I find this argument rather unconvincing.",
+      "This interpretation overlooks several key factors.",
+      "Such a claim seems exaggerated or misleading.",
+      "It would be mistaken to assume that ...",
+      "This view fails to take into account ..."
+    ],
+    "partial_agreement": [
+      "Although this argument holds some merit, ...",
+      "While I acknowledge this point, ...",
+      "This statement is valid to a certain degree; however, ...",
+      "Despite its logic, the argument lacks full justification.",
+      "Although true in part, this perspective is incomplete."
+    ],
+    "generalisation": [
+      "It is generally accepted that ...",
+      "Most experts would agree that ...",
+      "As a rule, ...",
+      "Broadly speaking, ...",
+      "In most modern societies, ..."
+    ],
+    "cause": [
+      "Owing to ...",
+      "As a consequence of ...",
+      "Largely because ...",
+      "Stemming from ...",
+      "Prompted by ..."
+    ],
+    "effect": [
+      "This inevitably leads to ...",
+      "As a result, ...",
+      "Consequently, ...",
+      "This development has given rise to ...",
+      "It follows that ..."
+    ],
+    "referencing": [
+      "According to recent research, ...",
+      "As highlighted by several scholars, ...",
+      "Empirical data suggest that ...",
+      "As noted in numerous studies, ...",
+      "Academic sources indicate that ..."
+    ],
+    "facts": [
+      "It is a well-documented fact that ...",
+      "There is substantial evidence showing that ...",
+      "Data clearly demonstrate that ...",
+      "Historical records reveal that ...",
+      "Surveys consistently show that ..."
+    ],
+    "problems": [
+      "One significant challenge concerns ...",
+      "A major issue currently faced by society is ...",
+      "This matter poses a considerable threat to ...",
+      "An increasingly serious concern is ...",
+      "The problem becomes apparent when ..."
+    ],
+    "solutions": [
+      "One potential remedy could be to ...",
+      "A feasible approach might involve ...",
+      "This issue could be mitigated by ...",
+      "It is vital to implement measures that ...",
+      "A long-term strategy should aim to ..."
+    ],
+    "speculating": [
+      "It is conceivable that ...",
+      "There is a possibility that ...",
+      "It might be the case that ...",
+      "Future developments could lead to ...",
+      "If current trends continue, it is likely that ..."
+    ],
+    "justifying": [
+      "This argument is supported by ...",
+      "The underlying rationale lies in ...",
+      "This position can be justified through ...",
+      "Such reasoning is based on ...",
+      "The logic behind this claim is ..."
+    ],
+    "adding": [
+      "Moreover, ...",
+      "In addition to this, ...",
+      "Equally important, ...",
+      "What is more, ...",
+      "Another relevant factor is ..."
+    ],
+    "contrasting": [
+      "Nevertheless, ...",
+      "In contrast to this, ...",
+      "Conversely, ...",
+      "On the contrary, ...",
+      "Despite this, ..."
+    ],
+    "conceding": [
+      "While it is true that ..., ...",
+      "Granted, ..., but ...",
+      "Admittedly, ..., yet ...",
+      "Even though this argument has merit, ...",
+      "Although this is a valid point, ..."
+    ],
+    "concluding": [
+      "To conclude, it can be inferred that ...",
+      "In summary, the evidence strongly suggests that ...",
+      "Overall, it may be concluded that ...",
+      "Taking all factors into account, ...",
+      "In light of these arguments, ..."
+    ]
+  }
+}
 
