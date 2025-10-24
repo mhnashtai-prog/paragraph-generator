@@ -50,7 +50,7 @@
 
     async function loadExpressions(level) {
       try {
-        const response = await fetch(\`samples/\${level}-level.json\`);
+        const response = await fetch(\`phrases/\${level}-level.json\`);
         const data = await response.json();
 
         // Build the suggestions display
