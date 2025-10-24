@@ -1,0 +1,69 @@
+{
+  "level": "C1",
+  "description": "Advanced academic structures using participles, gerunds, and modifiers that enhance cohesion and precision in essays.",
+  "structures": {
+    "adjective_focus": [
+      "The debate surrounding artificial intelligence remains highly controversial.",
+      "It is increasingly evident that education plays a decisive role in social progress.",
+      "Public concern about privacy issues has become particularly widespread.",
+      "The impact of globalisation is remarkably complex and multifaceted.",
+      "Government action is urgently required to prevent further deterioration."
+    ],
+    "adverb_focus": [
+      "The authorities acted decisively, implementing measures immediately.",
+      "Many citizens reacted positively, recognising the long-term advantages.",
+      "Unexpectedly, the new initiative attracted international attention.",
+      "The company responded efficiently, adjusting its strategy within days.",
+      "Historically, similar attempts have failed due to poor coordination."
+    ],
+    "participle_of_result": [
+      "Uncontrolled deforestation has continued, leading to irreversible damage.",
+      "Economic instability has intensified, forcing families to reconsider priorities.",
+      "Urbanisation has expanded rapidly, creating overcrowded living conditions.",
+      "Technological innovation has accelerated, redefining employment opportunities.",
+      "Environmental neglect has persisted, causing severe water shortages."
+    ],
+    "combined_adjective_gerund_consequence": [
+      "Deeply concerned about the planet’s future, activists are calling for urgent reform.",
+      "Frustrated by bureaucratic inefficiency, citizens are demanding transparency.",
+      "Encouraged by early success, scientists are broadening their research.",
+      "Motivated by rising unemployment, many are seeking alternative careers.",
+      "Alarmed by recent developments, international organisations have intervened."
+    ],
+    "causal_participle_phrase": [
+      "Having been ignored for years, the issue has now reached a critical stage.",
+      "Having gathered substantial evidence, experts can no longer be dismissed.",
+      "Having invested heavily in research, companies expect substantial returns.",
+      "Having experienced previous crises, the community was better prepared.",
+      "Having recognised the importance of sustainability, firms are changing strategies."
+    ],
+    "present_participle_consequence": [
+      "Neglecting environmental protection undermines long-term economic stability.",
+      "Failing to implement reforms may deepen existing inequalities.",
+      "Overlooking cultural diversity weakens social cohesion.",
+      "Promoting consumerism encourages unsustainable lifestyles.",
+      "Ignoring public opinion risks damaging political credibility."
+    ],
+    "gerund_ongoing_consequence": [
+      "Failing to address housing shortages continues to affect urban populations.",
+      "Relying on imported energy increases national vulnerability.",
+      "Delaying infrastructure investment hinders economic growth.",
+      "Reducing public funding limits access to essential services.",
+      "Overusing digital devices contributes to social isolation."
+    ],
+    "balance_and_consequence": [
+      "While economic progress brings prosperity, it can also widen inequality.",
+      "Although social media connects people, it may reduce genuine communication.",
+      "Whereas urban life offers convenience, it also creates stress and pollution.",
+      "While education broadens minds, it sometimes reinforces social divisions.",
+      "Although global trade strengthens cooperation, it increases dependency."
+    ],
+    "double_participle_expansion": [
+      "Driven by ambition and inspired by innovation, entrepreneurs are transforming industries.",
+      "Frustrated by restrictions and seeking recognition, artists explore new mediums.",
+      "Empowered by education and motivated by hope, young leaders are emerging.",
+      "Informed by history and guided by ethics, policymakers must act responsibly.",
+      "Challenged by uncertainty and determined to succeed, researchers continue their work."
+    ]
+  }
+}
